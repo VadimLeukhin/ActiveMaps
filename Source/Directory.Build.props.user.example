@@ -1,0 +1,6 @@
+<Project>
+  <!-- Copy to Directory.Build.props.user (gitignored) and set your install path. -->
+  <PropertyGroup>
+    <RimWorldDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldDir>
+  </PropertyGroup>
+</Project>

@@ -6,3 +6,4 @@ obj/
 *.pdb
 *.log
 *.tmp
+Source/Directory.Build.props.user

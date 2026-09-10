@@ -10,13 +10,21 @@ Copy this folder into `RimWorld/Mods/` (or symlink). Requires Harmony. Soft Rima
 
 ## Build
 
+Needs a RimWorld install + Harmony mod (`brrainz.harmony`). No machine-specific paths in the csproj.
+
 ```bat
 dotnet build Source\CrystallizeActiveMaps.csproj -c Release
 ```
 
-Output: `1.6/Assemblies/CrystallizeActiveMaps.dll`
+If Steam is not in the default location:
 
-Hint paths in the csproj point at a local RimWorld install + Harmony. Adjust if your paths differ.
+```bat
+dotnet build Source\CrystallizeActiveMaps.csproj -c Release -p:RimWorldDir="D:\Games\RimWorld"
+```
+
+Or copy `Source\Directory.Build.props.user.example` → `Source\Directory.Build.props.user` and set `RimWorldDir` there (gitignored).
+
+Output: `1.6/Assemblies/CrystallizeActiveMaps.dll`
 
 ## API (mod authors)
 

@@ -1,0 +1,4 @@
+<Project>
+  <!-- Auto-imported by MSBuild when present. Do not commit. -->
+  <Import Project="Directory.Build.props.user" Condition="Exists('Directory.Build.props.user')" />
+</Project>

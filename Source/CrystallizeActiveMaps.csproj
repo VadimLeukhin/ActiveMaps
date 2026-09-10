@@ -9,25 +9,55 @@
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
   </PropertyGroup>
+
+  <!--
+    RimWorldDir resolution order:
+      1) -p:RimWorldDir=...
+      2) Source/Directory.Build.props.user (gitignored; see .example)
+      3) Common Steam install paths below
+  -->
+  <PropertyGroup Condition="'$(RimWorldDir)' == ''">
+    <RimWorldDir Condition="Exists('C:\Program Files (x86)\Steam\steamapps\common\RimWorld')">C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldDir>
+    <RimWorldDir Condition="'$(RimWorldDir)' == '' and Exists('C:\Program Files\Steam\steamapps\common\RimWorld')">C:\Program Files\Steam\steamapps\common\RimWorld</RimWorldDir>
+    <RimWorldDir Condition="'$(RimWorldDir)' == '' and Exists('$(HOME)/.steam/steam/steamapps/common/RimWorld')">$(HOME)/.steam/steam/steamapps/common/RimWorld</RimWorldDir>
+    <RimWorldDir Condition="'$(RimWorldDir)' == '' and Exists('$(HOME)/Library/Application Support/Steam/steamapps/common/RimWorld')">$(HOME)/Library/Application Support/Steam/steamapps/common/RimWorld</RimWorldDir>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RimWorldManaged>$(RimWorldDir)\RimWorldWin64_Data\Managed</RimWorldManaged>
+    <RimWorldManaged Condition="Exists('$(RimWorldDir)\RimWorldLinux_Data\Managed')">$(RimWorldDir)\RimWorldLinux_Data\Managed</RimWorldManaged>
+    <RimWorldManaged Condition="Exists('$(RimWorldDir)\RimWorldMac_Data\Managed')">$(RimWorldDir)\RimWorldMac_Data\Managed</RimWorldManaged>
+    <HarmonyDll>$(RimWorldDir)\Mods\brrainz.harmony\Current\Assemblies\0Harmony.dll</HarmonyDll>
+  </PropertyGroup>
+
+  <Target Name="EnsureRimWorldDir" BeforeTargets="ResolveAssemblyReferences">
+    <Error
+      Condition="'$(RimWorldDir)' == '' or !Exists('$(RimWorldManaged)\Assembly-CSharp.dll')"
+      Text="RimWorld managed assemblies not found. Set RimWorldDir, e.g.:&#xA;  dotnet build -p:RimWorldDir=&quot;C:\Path\To\RimWorld&quot;&#xA;Or create Source\Directory.Build.props.user (see Directory.Build.props.user.example)." />
+    <Error
+      Condition="!Exists('$(HarmonyDll)')"
+      Text="Harmony 0Harmony.dll not found at $(HarmonyDll). Install the Harmony mod under RimWorld/Mods/brrainz.harmony." />
+  </Target>
+
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>F:\steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(RimWorldManaged)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>F:\steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(RimWorldManaged)\UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>F:\steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>$(RimWorldManaged)\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>F:\steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>$(RimWorldManaged)\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>F:\steam\steamapps\common\RimWorld\Mods\brrainz.harmony\Current\Assemblies\0Harmony.dll</HintPath>
+      <HintPath>$(HarmonyDll)</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

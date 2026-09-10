@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Crystallize_AM_EndStrike>Закончить артудар</Crystallize_AM_EndStrike>
+  <Crystallize_AM_EndStrikeDesc>Прекратить огонь и снять целеуказание. Рельсотроны вернутся в режим ожидания.</Crystallize_AM_EndStrikeDesc>
+  <Crystallize_AM_ChangeTarget>Сменить цель обстрела</Crystallize_AM_ChangeTarget>
+  <Crystallize_AM_ChangeTargetDesc>Указать новую точку удара на той же карте. Обстрел не прерывается.</Crystallize_AM_ChangeTargetDesc>
+  <Crystallize_AM_StopFire>Остановить огонь</Crystallize_AM_StopFire>
+  <Crystallize_AM_StopFireDesc>Сбросить текущее прицеливание. Карта и миссия остаются — можно снова выбрать цель.</Crystallize_AM_StopFireDesc>
+  <Crystallize_AM_MapFailed>Не удалось навестись на эту местность.</Crystallize_AM_MapFailed>
+  <Crystallize_AM_NoGunsInRange>Ни один рельсотрон не достаёт до этой цели.</Crystallize_AM_NoGunsInRange>
+  <Crystallize_AM_StrikeEnded>Артудар прекращён.</Crystallize_AM_StrikeEnded>
+  <Crystallize_AM_ConditionCleared>Источник угрозы уничтожен. Обстрел можно продолжить.</Crystallize_AM_ConditionCleared>
+  <Crystallize_AM_LootWindow>Развалины ещё доступны для обыска. Осталось: {0}.</Crystallize_AM_LootWindow>
+  <Crystallize_AM_LootWindowEnded>Время на обыск вышло. Следы артудара стёрты с карты.</Crystallize_AM_LootWindowEnded>
+  <Crystallize_AM_LootWindowWaitForLeave>Время обыска вышло, но ваши люди ещё не ушли. Место пропадёт с карты, когда они покинут его.</Crystallize_AM_LootWindowWaitForLeave>
+  <Crystallize_AM_LootWindowWaitForLeaveInspect>Обыск окончен. Пока здесь ваши люди, место останется на карте.</Crystallize_AM_LootWindowWaitForLeaveInspect>
+  <Crystallize_AM_AbandonRuinsMap>Покинуть локацию</Crystallize_AM_AbandonRuinsMap>
+  <Crystallize_AM_AbandonRuinsMapDesc>Отказ от исследования этой зоны приведёт к гибели или потере всего персонала и вещей, оставшихся на карте.</Crystallize_AM_AbandonRuinsMapDesc>
+  <Crystallize_AM_ConfirmAbandonRuinsMap>Убедитесь, что весь персонал и вещи эвакуированы. Покинуть локацию?</Crystallize_AM_ConfirmAbandonRuinsMap>
+  <Crystallize_AM_AbandonRuinsMapHasColonists>Здесь ещё остались ваши люди. Сначала уведите их караваном.</Crystallize_AM_AbandonRuinsMapHasColonists>
+
+  <Crystallize_AM_PresenceMode>Режим: {0}</Crystallize_AM_PresenceMode>
+  <Crystallize_AM_Occupants>Персонал: {0}</Crystallize_AM_Occupants>
+  <Crystallize_AM_ItemStacks>Складов в stash: {0}</Crystallize_AM_ItemStacks>
+  <Crystallize_AM_FireCooldown>Перезарядка: {0}</Crystallize_AM_FireCooldown>
+  <Crystallize_AM_RaidActive>Идёт рейд — карта загружена.</Crystallize_AM_RaidActive>
+  <Crystallize_AM_OutpostFormed>Аванпост создан: {0}.</Crystallize_AM_OutpostFormed>
+  <Crystallize_AM_OutpostDisbanded>Аванпост свёрнут в караван.</Crystallize_AM_OutpostDisbanded>
+  <Crystallize_AM_OutpostEmpty>В аванпосте нет персонала.</Crystallize_AM_OutpostEmpty>
+  <Crystallize_AM_CannotDisbandWhileMapped>Нельзя распустить аванпост, пока загружена карта рейда. Сначала завершите рейд.</Crystallize_AM_CannotDisbandWhileMapped>
+  <Crystallize_AM_CannotDemoteInCombat>Нельзя свернуть аванпост, пока на карте есть враги.</Crystallize_AM_CannotDemoteInCombat>
+  <Crystallize_AM_RaidAbandonedWipe>Аванпост свёрнут после полного поражения. Лут и трупы собраны в stash; карта брошена.</Crystallize_AM_RaidAbandonedWipe>
+  <Crystallize_AM_CannotFireDuringRaid>Нельзя стрелять, пока идёт оборона аванпоста.</Crystallize_AM_CannotFireDuringRaid>
+  <Crystallize_AM_NoAmmo>Недостаточно снарядов (stash / инвентарь / учёт).</Crystallize_AM_NoAmmo>
+  <Crystallize_AM_AmmoAvailable>Снаряды: {0}× {1}</Crystallize_AM_AmmoAvailable>
+  <Crystallize_AM_StrikeLaunched>Залп выпущен: {0}× {1}. Снаряды в пути.</Crystallize_AM_StrikeLaunched>
+  <Crystallize_AM_StrikeArrived>Залп аванпоста прибыл: {0}× {1}.</Crystallize_AM_StrikeArrived>
+  <Crystallize_AM_StrikeMissed>Залп не смог поразить цель (карта не загрузилась).</Crystallize_AM_StrikeMissed>
+  <Crystallize_AM_CannotFireSelf>Нельзя бить по клетке своего аванпоста.</Crystallize_AM_CannotFireSelf>
+  <Crystallize_AM_OutpostMissionActive>Огонь с аванпоста (карта удерживается).</Crystallize_AM_OutpostMissionActive>
+  <Crystallize_AM_OutpostAim>Цель: {0}</Crystallize_AM_OutpostAim>
+  <Crystallize_AM_OutpostAimSet>Цель залпа: {0}. Миномёты ведут огонь.</Crystallize_AM_OutpostAimSet>
+  <Crystallize_AM_OutpostNeedAim>Укажите цель на карте (Сменить цель).</Crystallize_AM_OutpostNeedAim>
+  <Crystallize_AM_OutpostTargetGone>Цель уничтожена. Огонь остановлен — смените цель или завершите удар.</Crystallize_AM_OutpostTargetGone>
+  <Crystallize_AM_OutOfWorldRange>Цель слишком далеко для миномётов аванпоста (макс. {0} клеток мира).</Crystallize_AM_OutOfWorldRange>
+  <Crystallize_AM_OutOfLocalRange>Вне радиуса обстрела ({0} клеток от центра карты).</Crystallize_AM_OutOfLocalRange>
+  <Crystallize_AM_FormOutpost>Сформировать аванпост</Crystallize_AM_FormOutpost>
+  <Crystallize_AM_FormOutpostDesc>Превратить караван в аванпост-stash на этой клетке. Карта загрузится только при принятии рейда.</Crystallize_AM_FormOutpostDesc>
+  <Crystallize_AM_DisbandOutpost>Распустить аванпост</Crystallize_AM_DisbandOutpost>
+  <Crystallize_AM_DisbandOutpostDesc>Собрать персонал и stash обратно в караван.</Crystallize_AM_DisbandOutpostDesc>
+  <Crystallize_AM_EndRaidDemote>Завершить рейд и свернуть</Crystallize_AM_EndRaidDemote>
+  <Crystallize_AM_EndRaidDemoteDesc>Собрать персонал и лут игрока в stash и выгрузить карту.</Crystallize_AM_EndRaidDemoteDesc>
+  <Crystallize_AM_TileOccupied>На клетке уже есть другой объект мира.</Crystallize_AM_TileOccupied>
+  <Crystallize_AM_NoPlayerEnter>В этот аванпост нельзя войти вручную. Карта грузится только при принятии рейда.</Crystallize_AM_NoPlayerEnter>
+  <Crystallize_AM_RaidLetterLabel>Рейд на {0}</Crystallize_AM_RaidLetterLabel>
+  <Crystallize_AM_RaidLetterText>Враги ({1}) угрожают аванпосту {0}.\n\nПринять — загрузить карту и сражаться. Отклонить — абстрактный исход (возможны потери).</Crystallize_AM_RaidLetterText>
+  <Crystallize_AM_RaidAccept>Защищать (загрузить карту)</Crystallize_AM_RaidAccept>
+  <Crystallize_AM_RaidDecline>Не вмешиваться (абстрактно)</Crystallize_AM_RaidDecline>
+  <Crystallize_AM_RaidAbstractLabel>Рейд на аванпост разрешён</Crystallize_AM_RaidAbstractLabel>
+  <Crystallize_AM_RaidAbstractText>Аванпост {0} пережил рейд без боя на карте. Потери персонала: {1}. Потери боеприпасов: {2}.</Crystallize_AM_RaidAbstractText>
+
+  <Crystallize_AM_SalvageCreated>Лут артудара собран в stash на маркере руин ({0}). Карта выгружена.</Crystallize_AM_SalvageCreated>
+  <Crystallize_AM_SalvageStash>Salvage stash: {0} стак(ов). Подведите караван на руины, чтобы забрать лут.</Crystallize_AM_SalvageStash>
+  <Crystallize_AM_SalvageStashTimed>Salvage stash: {0} стак(ов). Осталось: {1}. Караван должен стоять на руинах.</Crystallize_AM_SalvageStashTimed>
+  <Crystallize_AM_SalvageNoEnter>Руины в режиме salvage — подведите караван сюда и «Забрать лут» (карта не загружается).</Crystallize_AM_SalvageNoEnter>
+  <Crystallize_AM_SalvageMustVisit>караван должен стоять на руинах</Crystallize_AM_SalvageMustVisit>
+  <Crystallize_AM_SalvageTakeLoot>Забрать лут ({0})</Crystallize_AM_SalvageTakeLoot>
+  <Crystallize_AM_SalvageTransferTitle>Лут после артудара</Crystallize_AM_SalvageTransferTitle>
+  <Crystallize_AM_SalvageTransferTip>Выберите сколько забрать (как при торговле). Караван должен стоять на руинах.</Crystallize_AM_SalvageTransferTip>
+  <Crystallize_AM_SalvageSource>Stash</Crystallize_AM_SalvageSource>
+  <Crystallize_AM_SalvageDest>Караван</Crystallize_AM_SalvageDest>
+  <Crystallize_AM_SalvageSourceCount>В stash</Crystallize_AM_SalvageSourceCount>
+  <Crystallize_AM_SalvageTakeAll>Выбрать всё</Crystallize_AM_SalvageTakeAll>
+  <Crystallize_AM_SalvageAccept>Забрать выбранное</Crystallize_AM_SalvageAccept>
+  <Crystallize_AM_SalvageNothingSelected>Выберите хотя бы один предмет.</Crystallize_AM_SalvageNothingSelected>
+  <Crystallize_AM_SalvagePartialTaken>Лут забран. В stash ещё {0} стак(ов).</Crystallize_AM_SalvagePartialTaken>
+  <Crystallize_AM_SalvageEmptied>Лут забран в караван.</Crystallize_AM_SalvageEmptied>
+  <Crystallize_AM_VirtualGarrisonSaved>Гарнизон сохранён ({0} пешек, оборона: {1}). Карта выгружена.</Crystallize_AM_VirtualGarrisonSaved>
+  <Crystallize_AM_QuestVgLightSaved>Квестовый VG: гарнизон {0}, оборона {1}. Карта выгружена — оборона сохранится при входе.</Crystallize_AM_QuestVgLightSaved>
+  <Crystallize_AM_LinkedFloorsKept>Мультиэтажность: карта удержана ({0} защитников, оборона: {1}). Входы на другие этажи сохранены — войдите караваном.</Crystallize_AM_LinkedFloorsKept>
+  <Crystallize_AM_SiteUnloaded>Площадка выгружена. Маркер на мире сохранён; при входе карта может пересоздаться.</Crystallize_AM_SiteUnloaded>
+  <Crystallize_AM_SiteObjectiveLost>Артудар уничтожил цель площадки. Квест провален; маркер снят с карты мира.</Crystallize_AM_SiteObjectiveLost>
+  <Crystallize_AM_RaidWonLabel>Рейд отбит: {0}</Crystallize_AM_RaidWonLabel>
+  <Crystallize_AM_RaidWonText>Аванпост {0} отбил атаку. Персонал и лут собраны в stash, карта выгружена.</Crystallize_AM_RaidWonText>
+  <Crystallize_AM_RaidWonWipeText>Аванпост {0}: угроза снята, но своих выживших нет. Карта свёрнута в stash.</Crystallize_AM_RaidWonWipeText>
+  <Crystallize_AM_RaidWonMessage>Рейд отбит — аванпост свёрнут в stash.</Crystallize_AM_RaidWonMessage>
+  <Crystallize_AM_RaidWonWipeMessage>Угроза снята. Аванпост свёрнут (выживших нет).</Crystallize_AM_RaidWonWipeMessage>
+  <Crystallize_AM_PreserveHoldMap>Карта удерживается — войдите караваном, когда будете готовы.</Crystallize_AM_PreserveHoldMap>
+  <Crystallize_AM_PreserveHibernateMap>Карта в памяти (гибернация) — тики на паузе, пока не войдёте или не откроете удар снова.</Crystallize_AM_PreserveHibernateMap>
+  <Crystallize_AM_SettingsCategory>Crystallize Active Maps</Crystallize_AM_SettingsCategory>
+  <Crystallize_AM_Settings_FragileHeader>Площадки map-bound (Anomaly distress и т.п.)</Crystallize_AM_Settings_FragileHeader>
+  <Crystallize_AM_Settings_FragileHibernate>Гибернация (рекомендуется)</Crystallize_AM_Settings_FragileHibernate>
+  <Crystallize_AM_Settings_FragileHibernateTip>Карта в RAM, тики на паузе до входа/удара. Лучший FPS.</Crystallize_AM_Settings_FragileHibernateTip>
+  <Crystallize_AM_Settings_FragileHold>Полный Hold (старый)</Crystallize_AM_Settings_FragileHold>
+  <Crystallize_AM_Settings_FragileHoldTip>Карта загружена и полностью тикает — дорого.</Crystallize_AM_Settings_FragileHoldTip>
+  <Crystallize_AM_Settings_FragileForbid>Гибернация + запрет удара</Crystallize_AM_Settings_FragileForbid>
+  <Crystallize_AM_Settings_FragileForbidTip>Как гибернация, но нельзя начать удар аванпоста/рельсотрона по этой клетке.</Crystallize_AM_Settings_FragileForbidTip>
+  <Crystallize_AM_FragileForbidStrike>Нельзя бить map-bound площадки (настройка мода).</Crystallize_AM_FragileForbidStrike>
+</LanguageData>

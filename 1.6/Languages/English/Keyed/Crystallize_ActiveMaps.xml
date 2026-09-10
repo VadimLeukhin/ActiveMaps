@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Crystallize_AM_EndStrike>End fire mission</Crystallize_AM_EndStrike>
+  <Crystallize_AM_EndStrikeDesc>Cease fire and clear targeting. Railguns return to standby.</Crystallize_AM_EndStrikeDesc>
+  <Crystallize_AM_ChangeTarget>Retarget strike</Crystallize_AM_ChangeTarget>
+  <Crystallize_AM_ChangeTargetDesc>Pick a new impact point on the same map. The barrage continues.</Crystallize_AM_ChangeTargetDesc>
+  <Crystallize_AM_StopFire>Cease fire</Crystallize_AM_StopFire>
+  <Crystallize_AM_StopFireDesc>Clear the current aim only. Map and mission stay — pick a new target when ready.</Crystallize_AM_StopFireDesc>
+  <Crystallize_AM_MapFailed>Unable to lock onto that terrain.</Crystallize_AM_MapFailed>
+  <Crystallize_AM_NoGunsInRange>No railgun can reach this target.</Crystallize_AM_NoGunsInRange>
+  <Crystallize_AM_StrikeEnded>Fire mission ceased.</Crystallize_AM_StrikeEnded>
+  <Crystallize_AM_ConditionCleared>Threat source destroyed. The barrage may continue.</Crystallize_AM_ConditionCleared>
+  <Crystallize_AM_LootWindow>The ruins remain open for salvage. Time left: {0}.</Crystallize_AM_LootWindow>
+  <Crystallize_AM_LootWindowEnded>Salvage time is over. Traces of the strike fade from the world map.</Crystallize_AM_LootWindowEnded>
+  <Crystallize_AM_LootWindowWaitForLeave>Salvage time is over, but your people have not left yet. This place will vanish from the map once they move on.</Crystallize_AM_LootWindowWaitForLeave>
+  <Crystallize_AM_LootWindowWaitForLeaveInspect>Salvage is finished. This place stays on the map while your people remain.</Crystallize_AM_LootWindowWaitForLeaveInspect>
+  <Crystallize_AM_AbandonRuinsMap>abandon map</Crystallize_AM_AbandonRuinsMap>
+  <Crystallize_AM_AbandonRuinsMapDesc>Abandoning exploration of the area will result in the abandonment of personnel and items remaining within the area.</Crystallize_AM_AbandonRuinsMapDesc>
+  <Crystallize_AM_ConfirmAbandonRuinsMap>Please ensure that personnel and items have been evacuated. Do you want to abandon the map?</Crystallize_AM_ConfirmAbandonRuinsMap>
+  <Crystallize_AM_AbandonRuinsMapHasColonists>Your people are still here. Lead them away in a caravan first.</Crystallize_AM_AbandonRuinsMapHasColonists>
+
+  <Crystallize_AM_PresenceMode>Presence: {0}</Crystallize_AM_PresenceMode>
+  <Crystallize_AM_Occupants>Personnel: {0}</Crystallize_AM_Occupants>
+  <Crystallize_AM_ItemStacks>Stash stacks: {0}</Crystallize_AM_ItemStacks>
+  <Crystallize_AM_FireCooldown>Fire cooldown: {0}</Crystallize_AM_FireCooldown>
+  <Crystallize_AM_RaidActive>Raid in progress — map loaded.</Crystallize_AM_RaidActive>
+  <Crystallize_AM_OutpostFormed>Outpost established: {0}.</Crystallize_AM_OutpostFormed>
+  <Crystallize_AM_OutpostDisbanded>Outpost disbanded into a caravan.</Crystallize_AM_OutpostDisbanded>
+  <Crystallize_AM_OutpostEmpty>No personnel at this outpost.</Crystallize_AM_OutpostEmpty>
+  <Crystallize_AM_CannotDisbandWhileMapped>Cannot disband while the raid map is loaded. End the raid first.</Crystallize_AM_CannotDisbandWhileMapped>
+  <Crystallize_AM_CannotDemoteInCombat>Cannot fold the outpost while hostiles remain.</Crystallize_AM_CannotDemoteInCombat>
+  <Crystallize_AM_RaidAbandonedWipe>Outpost folded after total loss. Loot and corpses scooped into stash; map abandoned.</Crystallize_AM_RaidAbandonedWipe>
+  <Crystallize_AM_CannotFireDuringRaid>Cannot fire while defending the outpost.</Crystallize_AM_CannotFireDuringRaid>
+  <Crystallize_AM_NoAmmo>Not enough shells (stash / inventories / ledger).</Crystallize_AM_NoAmmo>
+  <Crystallize_AM_AmmoAvailable>Shells: {0}× {1}</Crystallize_AM_AmmoAvailable>
+  <Crystallize_AM_StrikeLaunched>Barrage launched: {0}× {1}. Shells en route.</Crystallize_AM_StrikeLaunched>
+  <Crystallize_AM_StrikeArrived>Outpost barrage arrived: {0}× {1}.</Crystallize_AM_StrikeArrived>
+  <Crystallize_AM_StrikeMissed>Barrage failed to hit (target map could not load).</Crystallize_AM_StrikeMissed>
+  <Crystallize_AM_CannotFireSelf>Cannot fire on your own outpost tile.</Crystallize_AM_CannotFireSelf>
+  <Crystallize_AM_OutpostMissionActive>Outpost fire mission (map pinned).</Crystallize_AM_OutpostMissionActive>
+  <Crystallize_AM_OutpostAim>Aim: {0}</Crystallize_AM_OutpostAim>
+  <Crystallize_AM_OutpostAimSet>Barrage aim: {0}. Mortars firing.</Crystallize_AM_OutpostAimSet>
+  <Crystallize_AM_OutpostNeedAim>Pick a target on the map (Change target).</Crystallize_AM_OutpostNeedAim>
+  <Crystallize_AM_OutpostTargetGone>Target destroyed. Fire paused — change target or end the strike.</Crystallize_AM_OutpostTargetGone>
+  <Crystallize_AM_OutOfWorldRange>Target is beyond outpost mortar world range (max {0} tiles).</Crystallize_AM_OutOfWorldRange>
+  <Crystallize_AM_OutOfLocalRange>Outside barrage radius ({0} cells from map center).</Crystallize_AM_OutOfLocalRange>
+  <Crystallize_AM_FormOutpost>Form outpost</Crystallize_AM_FormOutpost>
+  <Crystallize_AM_FormOutpostDesc>Convert this caravan into a stash outpost on this tile. The map will not load until a raid is accepted.</Crystallize_AM_FormOutpostDesc>
+  <Crystallize_AM_DisbandOutpost>Disband outpost</Crystallize_AM_DisbandOutpost>
+  <Crystallize_AM_DisbandOutpostDesc>Reform a caravan from outpost personnel and stash.</Crystallize_AM_DisbandOutpostDesc>
+  <Crystallize_AM_EndRaidDemote>End raid &amp; fold outpost</Crystallize_AM_EndRaidDemote>
+  <Crystallize_AM_EndRaidDemoteDesc>Scoop personnel and player loot into stash and unload the map.</Crystallize_AM_EndRaidDemoteDesc>
+  <Crystallize_AM_TileOccupied>Another world object already occupies this tile.</Crystallize_AM_TileOccupied>
+  <Crystallize_AM_NoPlayerEnter>You cannot enter this outpost manually. It loads only when a raid is accepted.</Crystallize_AM_NoPlayerEnter>
+  <Crystallize_AM_RaidLetterLabel>Raid on {0}</Crystallize_AM_RaidLetterLabel>
+  <Crystallize_AM_RaidLetterText>Hostiles ({1}) threaten outpost {0}.\n\nAccept to load the outpost map and fight. Decline to resolve the raid abstractly (possible losses).</Crystallize_AM_RaidLetterText>
+  <Crystallize_AM_RaidAccept>Defend (load map)</Crystallize_AM_RaidAccept>
+  <Crystallize_AM_RaidDecline>Stand down (abstract)</Crystallize_AM_RaidDecline>
+  <Crystallize_AM_RaidAbstractLabel>Outpost raid resolved</Crystallize_AM_RaidAbstractLabel>
+  <Crystallize_AM_RaidAbstractText>Outpost {0} weathered the raid without a map fight. Personnel lost: {1}. Ammo lost: {2}.</Crystallize_AM_RaidAbstractText>
+
+  <Crystallize_AM_SalvageCreated>Strike loot folded into a ruins stash ({0}). Map unloaded.</Crystallize_AM_SalvageCreated>
+  <Crystallize_AM_SalvageStash>Salvage stash: {0} stack(s). Move a caravan onto the ruins to take loot.</Crystallize_AM_SalvageStash>
+  <Crystallize_AM_SalvageStashTimed>Salvage stash: {0} stack(s). Time left: {1}. Caravan must stand on the ruins to take loot.</Crystallize_AM_SalvageStashTimed>
+  <Crystallize_AM_SalvageNoEnter>Ruins are in salvage mode — move your caravan here and use Take loot (map stays unloaded).</Crystallize_AM_SalvageNoEnter>
+  <Crystallize_AM_SalvageMustVisit>caravan must stand on the ruins</Crystallize_AM_SalvageMustVisit>
+  <Crystallize_AM_SalvageTakeLoot>Take loot ({0})</Crystallize_AM_SalvageTakeLoot>
+  <Crystallize_AM_SalvageTransferTitle>Strike salvage</Crystallize_AM_SalvageTransferTitle>
+  <Crystallize_AM_SalvageTransferTip>Choose how much to take (like trade). Caravan must stand on the ruins.</Crystallize_AM_SalvageTransferTip>
+  <Crystallize_AM_SalvageSource>Stash</Crystallize_AM_SalvageSource>
+  <Crystallize_AM_SalvageDest>Caravan</Crystallize_AM_SalvageDest>
+  <Crystallize_AM_SalvageSourceCount>In stash</Crystallize_AM_SalvageSourceCount>
+  <Crystallize_AM_SalvageTakeAll>Select all</Crystallize_AM_SalvageTakeAll>
+  <Crystallize_AM_SalvageAccept>Take selected</Crystallize_AM_SalvageAccept>
+  <Crystallize_AM_SalvageNothingSelected>Select at least one item.</Crystallize_AM_SalvageNothingSelected>
+  <Crystallize_AM_SalvagePartialTaken>Loot taken. Stash still has {0} stack(s).</Crystallize_AM_SalvagePartialTaken>
+  <Crystallize_AM_SalvageEmptied>Loot moved into the caravan.</Crystallize_AM_SalvageEmptied>
+  <Crystallize_AM_VirtualGarrisonSaved>Garrison saved ({0} pawns, defenses: {1}). Map unloaded.</Crystallize_AM_VirtualGarrisonSaved>
+  <Crystallize_AM_QuestVgLightSaved>Quest VG: garrison {0}, defenses {1}. Map unloaded — defenses kept for re-entry.</Crystallize_AM_QuestVgLightSaved>
+  <Crystallize_AM_LinkedFloorsKept>Multi-floor: map kept loaded ({0} defenders, defenses: {1}). Floor entrances preserved — enter with a caravan.</Crystallize_AM_LinkedFloorsKept>
+  <Crystallize_AM_SiteUnloaded>Site map unloaded. World marker kept; re-entry may regenerate the map.</Crystallize_AM_SiteUnloaded>
+  <Crystallize_AM_SiteObjectiveLost>Strike destroyed the site objective. Quest failed; world marker removed.</Crystallize_AM_SiteObjectiveLost>
+  <Crystallize_AM_RaidWonLabel>Raid defeated: {0}</Crystallize_AM_RaidWonLabel>
+  <Crystallize_AM_RaidWonText>Outpost {0} held. Personnel and loot folded into stash; map unloaded.</Crystallize_AM_RaidWonText>
+  <Crystallize_AM_RaidWonWipeText>Outpost {0}: threat gone, but no living defenders. Map folded to stash.</Crystallize_AM_RaidWonWipeText>
+  <Crystallize_AM_RaidWonMessage>Raid defeated — outpost folded to stash.</Crystallize_AM_RaidWonMessage>
+  <Crystallize_AM_RaidWonWipeMessage>Threat cleared. Outpost folded (no survivors).</Crystallize_AM_RaidWonWipeMessage>
+  <Crystallize_AM_PreserveHoldMap>Map held loaded — enter with a caravan when ready.</Crystallize_AM_PreserveHoldMap>
+  <Crystallize_AM_PreserveHibernateMap>Map kept in memory (hibernating) — ticks paused until you enter or strike again.</Crystallize_AM_PreserveHibernateMap>
+  <Crystallize_AM_SettingsCategory>Crystallize Active Maps</Crystallize_AM_SettingsCategory>
+  <Crystallize_AM_Settings_FragileHeader>Map-bound sites (Anomaly distress, etc.)</Crystallize_AM_Settings_FragileHeader>
+  <Crystallize_AM_Settings_FragileHibernate>Hibernate (recommended)</Crystallize_AM_Settings_FragileHibernate>
+  <Crystallize_AM_Settings_FragileHibernateTip>Keep map in RAM, skip ticks until enter/strike. Best FPS.</Crystallize_AM_Settings_FragileHibernateTip>
+  <Crystallize_AM_Settings_FragileHold>Full Hold (old)</Crystallize_AM_Settings_FragileHold>
+  <Crystallize_AM_Settings_FragileHoldTip>Keep map loaded and fully ticking — expensive.</Crystallize_AM_Settings_FragileHoldTip>
+  <Crystallize_AM_Settings_FragileForbid>Hibernate + forbid strike</Crystallize_AM_Settings_FragileForbid>
+  <Crystallize_AM_Settings_FragileForbidTip>Same as Hibernate, but refuse starting an outpost/railgun strike on that tile.</Crystallize_AM_Settings_FragileForbidTip>
+  <Crystallize_AM_FragileForbidStrike>Cannot strike map-bound fragile sites (mod setting).</Crystallize_AM_FragileForbidStrike>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Crystallize_AbstractOutpost.label>аванпост</Crystallize_AbstractOutpost.label>
+  <Crystallize_AbstractOutpost.description>Аванпост колонии в режиме stash: карта загружается только при принятии рейда.</Crystallize_AbstractOutpost.description>
+  <Crystallize_TravellingOutpostStrike.label>залп в пути</Crystallize_TravellingOutpostStrike.label>
+  <Crystallize_TravellingOutpostStrike.description>Снаряды, летящие с аванпоста к цели.</Crystallize_TravellingOutpostStrike.description>
+</LanguageData>

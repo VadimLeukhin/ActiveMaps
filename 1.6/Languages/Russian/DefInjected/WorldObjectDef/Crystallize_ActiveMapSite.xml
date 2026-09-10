@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Crystallize_ActiveMapSite.label>зона артудара</Crystallize_ActiveMapSite.label>
+  <Crystallize_ActiveMapSite.description>Временная карта для дальнего артудара. Снимается, когда удержание (pin) больше не нужно.</Crystallize_ActiveMapSite.description>
+</LanguageData>

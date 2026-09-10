@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <WorldObjectDef ParentName="StaticWorldObjectBase">
+    <defName>Crystallize_ActiveMapSite</defName>
+    <label>active map site</label>
+    <description>Temporary wilderness map held loaded for long-range fire support. Cleared when no pin remains.</description>
+    <worldObjectClass>Crystallize.ActiveMaps.ActiveMapSite</worldObjectClass>
+    <texture>World/WorldObjects/Ambush</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/WorldObjects/Expanding/Ambush</expandingIconTexture>
+    <expandingIconPriority>75</expandingIconPriority>
+    <mapGenerator>Encounter</mapGenerator>
+    <comps>
+      <li Class="WorldObjectCompProperties_FormCaravan" />
+    </comps>
+  </WorldObjectDef>
+
+  <WorldObjectDef ParentName="StaticWorldObjectBase">
+    <defName>Crystallize_AbstractOutpost</defName>
+    <label>outpost</label>
+    <description>A player outpost held as stash data. The map loads only when a raid is accepted.</description>
+    <worldObjectClass>Crystallize.ActiveMaps.AbstractOutpost</worldObjectClass>
+    <texture>World/WorldObjects/Camp</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/WorldObjects/Expanding/Camp</expandingIconTexture>
+    <expandingIconPriority>80</expandingIconPriority>
+    <mapGenerator>Encounter</mapGenerator>
+    <canHaveFaction>true</canHaveFaction>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>Crystallize_TravellingOutpostStrike</defName>
+    <label>incoming barrage</label>
+    <description>Shells in transit from an outpost.</description>
+    <worldObjectClass>Crystallize.ActiveMaps.TravellingOutpostStrike</worldObjectClass>
+    <texture>World/WorldObjects/TravelingTransportPods</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/WorldObjects/Expanding/TravelingTransportPods</expandingIconTexture>
+    <expandingIconPriority>90</expandingIconPriority>
+  </WorldObjectDef>
+
+  <LetterDef>
+    <defName>Crystallize_OutpostRaid</defName>
+    <letterClass>Crystallize.ActiveMaps.ChoiceLetter_OutpostRaid</letterClass>
+    <color>(1, 0.35, 0.35)</color>
+    <flashInterval>90</flashInterval>
+  </LetterDef>
+
+</Defs>

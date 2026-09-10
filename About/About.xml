@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Active Maps Framework</name>
+  <author>0Crystallize</author>
+  <packageId>crystallize.activemaps</packageId>
+  <modVersion IgnoreIfNoMatchingField="True">1.0.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Framework for keeping world maps loaded without a scout pawn - for long-range fire, outpost presence, and strike aftermath.
+
+Player features:
+- Rimatomics Fire Mission: open / hold the target map, retarget, cease fire, end strike, short salvage window on ruins.
+- SitePresence outposts: stash + simulation on the world map; full map only when a raid is accepted.
+- Strike aftermath: salvage stash, virtual garrison, structure damage sketch, quest-aware preserve / denylist.
+
+For mod authors (Crystallize.ActiveMaps.ActiveMapsApi):
+- Pin / Unpin / EnsureLoadedMap / TryUnload (foreign pins block hard unload)
+- Stash fold hooks, raid sketch providers, quest/site denylist, StrikeMapClass hooks
+
+Soft Rimatomics bridge (no hard dependency). Load this mod before Rimatomics.
+Safe to remove when no fire mission or outpost raid is in progress.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>zetrith.prepatcher</li>
+    <li>brrainz.harmony</li>
+    <li>ludeon.rimworld</li>
+    <li>ludeon.rimworld.royalty</li>
+    <li>ludeon.rimworld.ideology</li>
+    <li>ludeon.rimworld.biotech</li>
+    <li>ludeon.rimworld.anomaly</li>
+    <li>ludeon.rimworld.odyssey</li>
+  </loadAfter>
+  <loadBefore>
+    <li>Dubwise.Rimatomics</li>
+  </loadBefore>
+</ModMetaData>

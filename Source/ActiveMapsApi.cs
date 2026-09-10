@@ -25,7 +25,8 @@ namespace Crystallize.ActiveMaps
 
 		public const string PackageId = "crystallize.activemaps";
 
-		public static bool IsLoaded => true;
+		public static bool IsLoaded =>
+			ModLister.GetActiveModWithIdentifier(PackageId, ignorePostfix: true) != null;
 
 		// ── Map hold (no scout pawn) ─────────────────────────────────────────
 
